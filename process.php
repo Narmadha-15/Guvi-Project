@@ -59,15 +59,31 @@ if (isset($_POST['signup'])) {
         $sql = $db->prepare("insert into register (name, email, ph, password) VALUES (?,?,?,?)");
         $sql->bind_param("ssss", $name, $email, $phone, $pswd);
         $sql->execute();
+
+        $new_message = array(
+            "name" => $name,
+           "email" => $email,
+           "phone" => $phone,
+           "password" => $pswd
+        );
+      
+        if(filesize("db.json") == 0){
+           $first_record = array($new_message);
+           $data_to_save = $first_record;
+        }else{
+           $old_records = json_decode(file_get_contents("db.json"));
+           array_push($old_records, $new_message);
+           $data_to_save = $old_records;
+        }
+      
+        $encoded_data = json_encode($data_to_save, JSON_PRETTY_PRINT);
+      
+        if(!file_put_contents("db.json", $encoded_data, LOCK_EX)){
+           $error = "Error storing message, please try again";
+        }else{
+           $success =  "Message is stored successfully";
+        }
         header("location:success.php");
-
-
-
-    //     echo "<div class='alert alert-Sucess' role='alert'>
-    //     Login Success <a href='login.php' class='alert-link'>Click Here</a>to login.
-    //   </div>";
-
-        
 
     }
 }

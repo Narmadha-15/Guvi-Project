@@ -42,7 +42,6 @@ CREATE TABLE `register` (
 INSERT INTO `register` (`id`, `name`, `email`, `ph`, `password`) VALUES
 (1, 'Narmadha', 'narmadha@gmail.com', '9565652563', '1234'),
 (2, '', '', '', ''),
-(18, 'Rahuram ', 'ram@gmail.com', '9629124694', '1234'),
 (20, 'sam', 'sam@gmail.com', '9566474405', '1234'),
 (22, 'hello', 'helo@gmail.com', '4855555', '1234'),
 (28, 'jimmy', 'jimmy@gmail.com', '7896541236', '1234'),

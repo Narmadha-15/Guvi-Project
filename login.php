@@ -8,7 +8,6 @@ include "database.php";
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +15,7 @@ include "database.php";
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+</head> 
 
 <body>
 
@@ -36,7 +35,7 @@ include "database.php";
             $_SESSION["ID"] = $row["id"];
             $_SESSION["NAME"] = $row["name"];
 
-            header("location:thank.php");
+            header("location:welcome.php");
         } else {
             print("<p class='alert alert-danger m-5'>Error in Login...</p>");
         }
@@ -75,10 +74,6 @@ include "database.php";
             <button class="btn btn-primary" name="submit" id="signin">Sign In</button>
         </form>
     </div>
-
-
-
-
 </body>
 
 </html>
