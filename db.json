@@ -22,5 +22,17 @@
         "email": "hello@gmail.com",
         "phone": "8965457854",
         "password": "1234"
+    },
+    {
+        "name": "sana",
+        "email": "sana@gmail.com",
+        "phone": "7458456236",
+        "password": "1234"
+    },
+    {
+        "name": "preethi",
+        "email": "preethi@gmail.com",
+        "phone": "8564587458",
+        "password": "1234"
     }
 ]

@@ -24,8 +24,8 @@ if (!isset($_SESSION["ID"])) {
 
 <body>
     <div class="col-lg-6 col-md-8 mx-auto m-5">
-        <h1 class="fw-light">Welcome <?= $_SESSION["NAME"] ?></h1>
-        <p class="lead text-muted">Login Successfull.</p>
+        <h1 class="">Welcome <?= $_SESSION["NAME"] ?></h1>
+        <p class="lead text-warning">Login Successfull.</p>
         <p>
             <a href="#" class="btn btn-primary my-2">Get Started</a>
             <a href="#" class="btn btn-success my-2">Content</a>

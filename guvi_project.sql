@@ -40,19 +40,7 @@ CREATE TABLE `register` (
 --
 
 INSERT INTO `register` (`id`, `name`, `email`, `ph`, `password`) VALUES
-(1, 'Narmadha', 'narmadha@gmail.com', '9565652563', '1234'),
-(2, '', '', '', ''),
-(20, 'sam', 'sam@gmail.com', '9566474405', '1234'),
-(22, 'hello', 'helo@gmail.com', '4855555', '1234'),
-(28, 'jimmy', 'jimmy@gmail.com', '7896541236', '1234'),
-(96, 'bero', 'bero@gmail.com', '232334343', '1234'),
-(97, 'bench', 'bench@gmail.com', '65655564545465', '1234'),
-(98, 'battery', 'battery@gmail.com', '12233434', '1234'),
-(99, 'bag', 'bag@gmail.com', '234454', '1234'),
-(100, 'hp', 'hp@gmail.com', '564954544', '1234'),
-(103, 'salem', 'salem@gmail.com', '5426659555', '1234'),
-(104, 'rasi', 'rasi@gmail.com', '545155251', '1234'),
-(105, 'docker', 'docker@gmail.com', '5545451515', '1234');
+(1, 'Narmadha', 'narmadha@gmail.com', '9565652563', '1234');
 
 --
 -- Indexes for dumped tables
