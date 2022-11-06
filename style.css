@@ -21,9 +21,9 @@ body {
   align-items: center;
 }
 
-.lname {
-  /* font-weight: 100; */
-  color: black;
+.hold{
+  float: right;
+
 }
 
 .card {

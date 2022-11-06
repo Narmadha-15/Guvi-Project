@@ -34,5 +34,23 @@
         "email": "preethi@gmail.com",
         "phone": "8564587458",
         "password": "1234"
+    },
+    {
+        "name": "ram",
+        "email": "ram@gmail.com",
+        "phone": "9344785792",
+        "password": "1234"
+    },
+    {
+        "name": "kumar",
+        "email": "kumar@gmail.com",
+        "phone": "987678889",
+        "password": "1234"
+    },
+    {
+        "name": "table",
+        "email": "table@gmail.com",
+        "phone": "34343434",
+        "password": "1234"
     }
 ]

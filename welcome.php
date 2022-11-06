@@ -23,8 +23,8 @@ if (!isset($_SESSION["ID"])) {
 </head> 
 
 <body>
-    <div class="col-lg-6 col-md-8 mx-auto m-5">
-        <h1 class="">Welcome <?= $_SESSION["NAME"] ?></h1>
+    <div class="col-lg-6 col-md-8 card bg-dark">
+        <h1 class="text-white">Welcome <?= $_SESSION["NAME"] ?></h1>
         <p class="lead text-warning">Login Successfull.</p>
         <p>
             <a href="#" class="btn btn-primary my-2">Get Started</a>
