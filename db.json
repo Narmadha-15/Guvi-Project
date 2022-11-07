@@ -52,5 +52,17 @@
         "email": "table@gmail.com",
         "phone": "34343434",
         "password": "1234"
+    },
+    {
+        "name": "vidhya",
+        "email": "vidhya@gmail.com",
+        "phone": "87676786678",
+        "password": "1234"
+    },
+    {
+        "name": "swetha",
+        "email": "swetha@gmail.com",
+        "phone": "9876886886",
+        "password": "1234"
     }
 ]

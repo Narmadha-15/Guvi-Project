@@ -8,5 +8,3 @@ $db = new mysqli($servername, $username, $password, $dbname);
 
 
 ?>
-
-

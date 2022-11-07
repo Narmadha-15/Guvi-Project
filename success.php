@@ -14,7 +14,7 @@
         <div class="alert alert-success" role="alert">
             <h4 class="alert-heading">Registration Success!!</h4>
             <p>The Page You have Signed up is Successfully Signedup.</p>
-            <p><a href="login.php" class="alert-link">Click here</a>To Login.</p>
+            <p><a href="login.php" class="alert-link">Click here</a> to Login.</p>
             <hr>
             <p class="mb-0">Thank You for Sigining In...</p>
         </div>
